@@ -1,8 +1,8 @@
 # Admin Panel
 
-Проэкт представляет из себя 2 части:
-- frontend: ReactJ;
-- backend nodejs, express, mongodb
+Проект представляет из себя 2 части:
+- frontend: ReactJS;
+- backend: nodejs, express, mongodb
 
 
 Запуск backend части:
