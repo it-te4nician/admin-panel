@@ -341,21 +341,13 @@
     font-size: 13px;
     line-height: 16px;
     color: #FFFFFF;
-
 }
 
-.anchor:before {
-    display: block;
-    content: "";
-    background-image: url('../icons/v_arrow.svg');
-    background-size: 7px 7px;
-    z-index: 1;
-    position: relative;
+.icon-v_table_field_arrow:after {
+    content: "\e902";
+    color: #FFFFFF;
     width: 6px;
     height: 5px;
-    left: calc(50% - 6px/2 + 6px);
-    top: calc(50% - 5px/2 + 5.5px);
-    background: #FFF;
+    padding-left: 8px;
 }
-
 
