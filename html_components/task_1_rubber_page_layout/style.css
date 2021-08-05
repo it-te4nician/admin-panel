@@ -1,0 +1,234 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');*/
+@font-face {
+    font-family: Ubuntu;
+    src: url(https://fonts.google.com/share?selection.family=Ubuntu:wght@400;700);
+}
+
+.order-list-wrapper {
+    /*display: flex;*/
+    flex-direction: column;
+    /*align-items: flex-start;*/
+    margin: 32px 48px 0px;
+    /*margin: 10px*/
+}
+
+.order-list-header {
+    /* Auto Layout */
+
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: flex-start;*/
+    /*padding: 0px;*/
+
+    /*position: static;*/
+    /*width: 1504px;*/
+    width: 100%;
+    height: 32px;
+    /*left: calc(50% - 1504px/2);*/
+    /*top: 32px;*/
+
+    /*!* Light *!*/
+
+    background: #A8A8FF;
+
+    /*!* Inside Auto Layout *!*/
+
+    /*flex: none;*/
+    /*order: 0;*/
+    /*align-self: stretch;*/
+    /*flex-grow: 0;*/
+    margin: 32px 0px;
+}
+
+.header-text {
+    /* Page header */
+
+
+    /*position: static;*/
+    /*width: 1504px;*/
+    /*height: 32px;*/
+    /*left: 0px;*/
+    /*top: 0px;*/
+
+    /* headline */
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height, or 123% */
+
+    letter-spacing: -0.2px;
+
+    /* Middle */
+
+    color: #8055FF;
+
+
+    /* Inside Auto Layout */
+
+    /*flex: none;*/
+    /*order: 0;*/
+    /*flex-grow: 1;*/
+    /*margin: 0px 16px;*/
+}
+
+.order-list-filter {
+    justify-content: space-between;
+    display: flex;
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    /*align-items: flex-start;*/
+    padding: 8px;
+
+    /*position: static;*/
+    /*width: 1504px;*/
+    width: 100%;
+    /*height: 48px;*/
+    /*left: calc(50% - 1504px/2);*/
+    /*top: 96px;*/
+
+    /* Light */
+
+    border: 2px solid #A8A8FF;
+    box-sizing: border-box;
+
+    /* Inside Auto Layout */
+
+    /*flex: none;*/
+    /*order: 1;*/
+    /*align-self: stretch;*/
+    /*flex-grow: 0;*/
+    /*margin: 32px 0px;*/
+}
+
+.filter-group {
+    display: flex;
+}
+
+.filter-item-bigger {
+    margin-right: 8px;
+    display: flex;
+    height: 32px;
+    background: #8055FF;
+    width: 256px;
+}
+
+.filter-item {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background: #8055FF;
+}
+
+
+.order-list-table {
+    /* TableWrapper / proto */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    /*align-items: flex-start;*/
+    padding: 0px;
+    /*position: static;*/
+    width: 100%;
+    height: 608px;
+    /*left: calc(50% - 1504px/2);*/
+    /*top: 176px;*/
+
+    /* Middle */
+
+    border: 2px solid #8055FF;
+    box-sizing: border-box;
+
+    /* Inside Auto Layout */
+
+    /*flex: none;*/
+    /*order: 2;*/
+    /*align-self: stretch;*/
+    /*flex-grow: 1;*/
+    margin: 32px 0px;
+}
+
+.order-list-table-header {
+    /* TableHeader */
+    /* Auto Layout */
+
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: flex-start;*/
+    /*padding: 8px;*/
+
+    /*position: static;*/
+    width: 100%;
+    height: 48px;
+    /*left: calc(50% - 1504px/2);*/
+    /*top: 0px;*/
+
+    /* Middle */
+
+    background: #8055FF;
+
+    /* Inside Auto Layout */
+
+    /*flex: none;*/
+    /*order: 0;*/
+    /*align-self: stretch;*/
+    /*flex-grow: 0;*/
+    /*margin: 0px 0px;*/
+}
+
+.order-list-table-body {
+    /* TableBody */
+    /* Auto Layout */
+
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: flex-start;*/
+    /*padding: 32px;*/
+
+    /*position: static;*/
+    width: 100%;
+    height: 512px;
+    /*left: calc(50% - 1504px/2);*/
+    /*top: 48px;*/
+
+    /* Light */
+
+    background: #A8A8FF;
+
+    /* Inside Auto Layout */
+
+    /*flex: none;*/
+    /*order: 1;*/
+    /*align-self: stretch;*/
+    /*flex-grow: 1;*/
+    /*margin: 0px 0px;*/
+}
+
+.order-list-table-footer {
+    /* TableFooter */
+    /* Auto Layout */
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: flex-start;*/
+    /*padding: 8px;*/
+
+    /*position: static;*/
+    width: 100%;
+    height: 48px;
+    /*left: calc(50% - 1504px/2);*/
+    /*top: 560px;*/
+
+    /* Middle */
+
+    background: #8055FF;
+
+    /* Inside Auto Layout */
+
+    /*flex: none;*/
+    /*order: 2;*/
+    /*align-self: stretch;*/
+    /*flex-grow: 0;*/
+    /*margin: 0px 0px;*/
+}
