@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color:#BAD8F5;
+    --accentuating-color: #459DF5;
+    --additional-color: #EBF0F5;
+}
+
+.header {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.header_text {
+    height: 2rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 2rem;
+
+}
+
+.header_button {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: var(--accentuating-color);
+}
+
+.custom_iconfont_sun:before {
+    content: "\e903";
+    color: var(--accentuating-color);
+    width: 0.5rem;
+    height: 0.25rem;
+    padding-right: 0.5rem;
+}

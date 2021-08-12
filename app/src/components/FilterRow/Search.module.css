@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color:#BAD8F5;
+    --accentuating-color: #459DF5;
+    --additional-color: #EBF0F5;
+}
+
+.search {
+    display: flex;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid var(--accentuating-color);
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    background: var(--primary-color);
+}
+
+.custom_iconfont_search:before {
+    content: "\e904";
+    color: var(--accentuating-color);
+    margin-right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.search_text {
+    display: flex;
+    width: 17.75rem;
+    height: 1rem;
+    color: var(--secondary-color);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    border: none;
+    outline: none;
+}
+
+/*::placeholder { !* Chrome, Firefox, Opera, Safari 10.1+ *!*/
+/*    color: var(--secondary-color);*/
+/*}*/
