@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(https://fonts.google.com/share?selection.family=Ubuntu:wght@400;700);
+}
+
+@font-face {
+    font-family: 'customiconfont';
+    src:  url('./fonts/customiconfont.eot');
+    src:  url('./fonts/customiconfont.eot') format('embedded-opentype'),
+    url('./fonts/customiconfont.ttf') format('truetype'),
+    url('./fonts/customiconfont.woff') format('woff'),
+    url('./fonts/customiconfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+:root {
+    --color-layout: #8055FF;
+    --color-layout-light: #A8A8FF;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'customiconfont' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.order-list-wrapper {
+    /*display: flex;*/
+    flex-direction: column;
+    /*align-items: flex-start;*/
+    margin: 32px 48px 0px;
+    /*margin: 10px*/
+}
+

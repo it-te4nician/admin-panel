@@ -1,0 +1,238 @@
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color:#BAD8F5;
+    --accentuating-color: #459DF5;
+    --additional-color: #EBF0F5;
+}
+
+.wrapper {
+    display: flex;
+    padding-bottom: 2rem;
+    flex-direction: row;
+    height: 5.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    -moz-box-sizing: border-box; /* в Firefox нужен префикс */
+    box-sizing: border-box;
+    background: var(--additional-color);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.date_filter {
+    width: 18rem;
+    margin-right: 1rem;
+}
+
+.date_filter_title {
+    width: 18rem;
+    height: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.date_filter_inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.date_filter_inputs_input_start_date {
+    display: flex;
+    flex-direction: row;
+    width: 8.75rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    margin-right: 0.25rem;
+    border: 1px solid #459DF5;
+    -moz-box-sizing: border-box; /* в Firefox нужен префикс */
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: var(--primary-color);
+}
+
+.date_filter_inputs_input_start_date_preposition {
+    width: 0.5rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.date_filter_inputs_input_end_date {
+    display: flex;
+    flex-direction: row;
+    width: 8.75rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    border: 1px solid #459DF5;
+    -moz-box-sizing: border-box; /* в Firefox нужен префикс */
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: var(--primary-color);
+}
+
+.date_filter_inputs_input_end_date_preposition {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.date_filter_inputs_input_end_date_text {
+    width: 6.75rem;
+    height: 1rem;
+    color: var(--secondary-color);
+}
+
+.status_filter {
+    width: 12rem;
+    height: 65rem;
+    margin-right: 1rem;
+}
+
+.status_filter___input {
+    display: flex;
+    flex-direction: row;
+}
+
+.status_filter_title {
+    width: 12rem;
+    height: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.status_filter_input {
+    width: 12rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    margin-bottom: 0.25rem;
+    border: 1px solid #459DF5;
+    -moz-box-sizing: border-box; /* в Firefox нужен префикс */
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: var(--primary-color);
+}
+
+.status_filter_popup {
+    width: 10rem;
+    height-min: 4rem;
+    background: var(--primary-color);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    -moz-box-sizing: border-box; /* в Firefox нужен префикс */
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.sum_filter {
+    width: 16rem;
+    height: 65rem;
+    margin-right: 1rem;
+}
+
+.sum_filter_title {
+    width: 16rem;
+    height: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.sum_filter_inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.sum_filter_inputs_input_start_sum {
+    display: flex;
+    flex-direction: row;
+    width: 8.75rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    margin-right: 0.25rem;
+    border: 1px solid #459DF5;
+    -moz-box-sizing: border-box; /* в Firefox нужен префикс */
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: var(--primary-color);
+}
+
+.sum_filter_inputs_input_start_sum_preposition {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.sum_filter_inputs_input_end_sum {
+    display: flex;
+    flex-direction: row;
+    width: 8.75rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    border: 1px solid #459DF5;
+    -moz-box-sizing: border-box; /* в Firefox нужен префикс */
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: var(--primary-color);
+}
+
+.sum_filter_inputs_input_end_sum_preposition {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.sum_filter_inputs_input_end_sum_text {
+    width: 5.75rem;
+    height: 1rem;
+    color: var(--secondary-color);
+}
+
+.filter_accept_button {
+    cursor: pointer;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    color: var(--accentuating-color);
+}
+
+.status_filter_popup_row {
+    display: flex;
+    padding: 0.25rem;
+}
+
+.status_filter_popup_row_checkbox {
+    width: 1rem;
+    height: 1rem;
+    background: #FFFFFF;
+    border: 1px solid #BAD8F5;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: 0 0.5rem 0 0;
+}
+
+.status_filter_popup_row_checkbox_selected {
+    width: 16px;
+    height: 16px;
+    background: #459DF5;
+    border: 1px solid #BAD8F5;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin: 0 0.5rem 0 0;
+}
+
+
+.status_filter_popup_row_title {
+
+}
+
+
+.custom_iconfont_checkbox:after {
+    content: "\e90b";
+    color: #FFFFFF;
+    font-size: 1rem;
+}

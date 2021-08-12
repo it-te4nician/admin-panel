@@ -1,0 +1,4 @@
+export const SELECT_ORDER = 'SELECT_ORDER'
+export const DELETE_ORDERS = 'DELETE_ORDERS'
+export const SELECT_ALL_ORDERS = 'SELECT_ALL_ORDERS'
+

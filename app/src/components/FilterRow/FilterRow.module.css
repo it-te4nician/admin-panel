@@ -1,0 +1,129 @@
+
+
+.filter_wrapper {
+    display: flex;
+    padding-bottom: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.filter_group {
+    display: flex;
+    width: 29rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filter_group__extended {
+    display: flex;
+    width: 42rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filter_button {
+    cursor: pointer;
+    display: flex;
+    width: 8rem;
+    height: 2rem;
+    -moz-box-sizing: border-box; /* в Firefox нужен префикс */
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    background: var(--primary-color);
+}
+
+.unset_filters_button {
+    cursor: pointer;
+    display: flex;
+    width: 12rem;
+    height: 2rem;
+    background: var(--primary-color);
+}
+
+.unset_filters_button__hidden {
+    display: none;
+}
+
+.unset_filters_button_text {
+    display: flex;
+    padding-top: 0.5rem;
+    height: 1rem;
+    color: var(--accentuating-color);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-left: 1rem;
+}
+
+.filter_button_text {
+    display: flex;
+    padding-top: 0.5rem;
+    height: 1rem;
+    color: var(--accentuating-color);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.custom_iconfont_filter:before {
+    content: "\e909";
+    color: var(--accentuating-color);
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.filter_button_text__selected {
+    color: var(--accentuating-color);
+}
+
+.filter_button__selected {
+    background: var(--accentuating-color);
+}
+
+.unset_filters_button {
+
+}
+
+.loading_status {
+    display: flex;
+    width: 7rem;
+    height: 2rem;
+    -moz-box-sizing: border-box; /* в Firefox нужен префикс */
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    background: var(--primary-color);
+}
+
+.loading_status__hidden {
+    display: none;
+}
+
+.loading_status_text {
+    display: flex;
+    padding-top: 0.5rem;
+    height: 1rem;
+    color: var(--accentuating-color);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.custom_iconfont_loading:before {
+    content: "\e905";
+    color: var(--accentuating-color);
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
